@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7c26b99bebb555840e7ac703b804ea5f37b6fe049ee45f2f3781e3468004a25f
+-- hash: 8218e8cbf6980160c7f6487df3ac67323f0313499f81a6b56a68a00ead29b75c
 
 name:           flight-units
 version:        0.1.0
@@ -44,29 +44,6 @@ library
     , bifunctors
     , fixed
     , formatting
-    , numbers
-    , siggy-chardust
-    , text
-    , uom-plugin
-  default-language: Haskell2010
-
-test-suite hlint
-  type: exitcode-stdio-1.0
-  main-is: HLint.hs
-  other-modules:
-      Flight.Ratio
-      Flight.Units
-      Paths_flight_units
-  hs-source-dirs:
-      library
-      test-suite-hlint
-  ghc-options: -Wall -fplugin Data.UnitsOfMeasure.Plugin -rtsopts -threaded -with-rtsopts=-N
-  build-depends:
-      base
-    , bifunctors
-    , fixed
-    , formatting
-    , hlint
     , numbers
     , siggy-chardust
     , text

@@ -27,25 +27,4 @@
       , exposed-modules =
           [ "Flight.Ratio", "Flight.Units" ]
       }
-  , tests =
-      { hlint =
-          { dependencies =
-              [ "base"
-              , "hlint"
-              , "numbers"
-              , "fixed"
-              , "bifunctors"
-              , "text"
-              , "formatting"
-              , "uom-plugin"
-              , "siggy-chardust"
-              ]
-          , ghc-options =
-              [ "-rtsopts", "-threaded", "-with-rtsopts=-N" ]
-          , main =
-              "HLint.hs"
-          , source-dirs =
-              [ "library", "test-suite-hlint" ]
-          }
-      }
   }
