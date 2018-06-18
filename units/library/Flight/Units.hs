@@ -1,3 +1,4 @@
+{-# LANGUAGE PatternSynonyms #-}
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE FlexibleInstances #-}
@@ -15,13 +16,16 @@ module Flight.Units
     ( abs
     , showRadian
     , realToFrac'
+    , launchValidity1
     ) where
 
+import Data.Ratio ((%))
 import Data.UnitsOfMeasure (u, convert, fromRational')
 import Data.UnitsOfMeasure.Internal (Quantity(..))
 import Data.Bifunctor.Flip (Flip(..))
 import Data.Number.RoundingFunctions (dpRound)
 
+import Flight.Ratio (pattern (:%))
 import Flight.Units.Angle ()
 
 [u| s, m |]
@@ -49,3 +53,11 @@ showRadian b = show dbl
         deg = convert b :: Quantity Rational [u| deg |]
         Flip rounded = dpRound 3 <$> Flip deg
         MkQuantity dbl = fromRational' rounded :: Quantity Double [u| deg |]
+
+newtype NominalLaunch =
+    NominalLaunch Rational
+    deriving (Eq, Ord, Show)
+
+{-@ launchValidity1 :: _ -> _ @-}
+launchValidity1 :: NominalLaunch -> Bool
+launchValidity1 _ = False
