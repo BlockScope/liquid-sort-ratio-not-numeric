@@ -20,7 +20,6 @@
           , "text"
           , "formatting"
           , "uom-plugin"
-          , "siggy-chardust"
           ]
       , source-dirs =
           "library"

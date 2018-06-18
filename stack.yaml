@@ -1,7 +1,6 @@
 resolver: lts-11.8
 flags: {}
 packages:
-- siggy-chardust
 - units
 extra-deps:
 - uom-plugin-0.3.0.0

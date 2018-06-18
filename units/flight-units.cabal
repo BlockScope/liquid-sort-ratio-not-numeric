@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8218e8cbf6980160c7f6487df3ac67323f0313499f81a6b56a68a00ead29b75c
+-- hash: d770b63a9ac94a6a26b644cf1fe3f393a88fd89a1488d21bf19753d404422fd1
 
 name:           flight-units
 version:        0.1.0
@@ -45,7 +45,6 @@ library
     , fixed
     , formatting
     , numbers
-    , siggy-chardust
     , text
     , uom-plugin
   default-language: Haskell2010
