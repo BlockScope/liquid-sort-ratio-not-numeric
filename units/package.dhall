@@ -25,11 +25,7 @@
       , source-dirs =
           "library"
       , exposed-modules =
-          [ "Flight.Ratio"
-          , "Flight.Units"
-          , "Flight.Units.Angle"
-          , "Flight.Units.DegMinSec"
-          ]
+          [ "Flight.Ratio", "Flight.Units" ]
       }
   , tests =
       { hlint =

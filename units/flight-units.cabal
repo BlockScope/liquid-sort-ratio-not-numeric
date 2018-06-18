@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cc595b37ba1e4d7430a454142ed89d56298b5b0a8cc1d68340f2e6761dfab2e6
+-- hash: 7c26b99bebb555840e7ac703b804ea5f37b6fe049ee45f2f3781e3468004a25f
 
 name:           flight-units
 version:        0.1.0
@@ -34,8 +34,6 @@ library
   exposed-modules:
       Flight.Ratio
       Flight.Units
-      Flight.Units.Angle
-      Flight.Units.DegMinSec
   other-modules:
       Paths_flight_units
   hs-source-dirs:
@@ -58,8 +56,6 @@ test-suite hlint
   other-modules:
       Flight.Ratio
       Flight.Units
-      Flight.Units.Angle
-      Flight.Units.DegMinSec
       Paths_flight_units
   hs-source-dirs:
       library
