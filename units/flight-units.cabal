@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d770b63a9ac94a6a26b644cf1fe3f393a88fd89a1488d21bf19753d404422fd1
+-- hash: 8f0505f81f2dd94e76a4550c0c66a6d9c77a9a429b292e4c9500ee3436c74dac
 
 name:           flight-units
 version:        0.1.0
@@ -21,7 +21,6 @@ build-type:     Simple
 cabal-version:  >= 1.10
 
 extra-source-files:
-    changelog.md
     package.dhall
     README.md
 
