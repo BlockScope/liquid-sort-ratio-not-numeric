@@ -1,5 +1,5 @@
 module Flight.Repro (repro) where
-    
+
 import Data.Ratio
 
 -- SEE: https://github.com/ucsd-progsys/liquidhaskell/issues/1336

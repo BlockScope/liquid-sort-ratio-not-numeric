@@ -20,6 +20,7 @@
           , "text"
           , "formatting"
           , "uom-plugin"
+          , "liquidhaskell"
           ]
       , source-dirs =
           "library"

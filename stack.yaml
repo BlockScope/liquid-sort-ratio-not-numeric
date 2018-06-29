@@ -2,6 +2,10 @@ resolver: lts-11.8
 flags: {}
 packages:
 - units
+- location:
+    git: https://github.com/ucsd-progsys/liquidhaskell.git
+    commit: 8b783a6d5abda835f2b881aa655b5dd9dfd06d80
+  extra-dep: true
 extra-deps:
 - uom-plugin-0.3.0.0
 - hxt-xpath-9.1.2.2
@@ -9,4 +13,3 @@ extra-deps:
 - located-base-0.1.1.1
 - dotgen-0.4.2
 - fgl-visualize-0.1.0.1
-- liquidhaskell-0.8.2.4
