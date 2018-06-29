@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8f0505f81f2dd94e76a4550c0c66a6d9c77a9a429b292e4c9500ee3436c74dac
+-- hash: f50bfeae1cff4ae7d3ec0fc8dcd3d4d2ba6b173a56b041c523f5406a5eb088c5
 
 name:           flight-units
 version:        0.1.0
@@ -33,6 +33,7 @@ library
   exposed-modules:
       Flight.Ratio
       Flight.Units
+      Flight.Repro
   other-modules:
       Paths_flight_units
   hs-source-dirs:

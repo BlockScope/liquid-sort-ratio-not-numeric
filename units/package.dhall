@@ -24,6 +24,6 @@
       , source-dirs =
           "library"
       , exposed-modules =
-          [ "Flight.Ratio", "Flight.Units" ]
+          [ "Flight.Ratio", "Flight.Units", "Flight.Repro" ]
       }
   }
