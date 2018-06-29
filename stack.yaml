@@ -9,3 +9,4 @@ extra-deps:
 - located-base-0.1.1.1
 - dotgen-0.4.2
 - fgl-visualize-0.1.0.1
+- liquidhaskell-0.8.2.4
