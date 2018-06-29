@@ -4,7 +4,7 @@ packages:
 - units
 - location:
     git: https://github.com/ucsd-progsys/liquidhaskell.git
-    commit: 8b783a6d5abda835f2b881aa655b5dd9dfd06d80
+    commit: ec88f568d101bfd35b6254aa7db034164d9c89dd
   extra-dep: true
 extra-deps:
 - uom-plugin-0.3.0.0
