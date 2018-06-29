@@ -22,7 +22,6 @@ newtype NominalLaunch =
     NominalLaunch Rational
     deriving (Eq, Ord, Show)
 
-{-@ embed Ratio * as int @-}
 {-@ launchValidity1 :: _ -> _ @-}
 launchValidity1 :: NominalLaunch -> Bool
 launchValidity1 _ = False

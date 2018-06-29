@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ed6f49214a92d272b7c0bf11ce475646052daf6abe82badacbb0c4370baca8b3
+-- hash: 96b359021319791e17fbe12f822f1d6bbb19f0a22f361061fe631e18a9ed38a3
 
 name:           flight-units
 version:        0.1.0
@@ -44,6 +44,7 @@ library
     , bifunctors
     , fixed
     , formatting
+    , liquid-fixpoint
     , liquidhaskell
     , numbers
     , text

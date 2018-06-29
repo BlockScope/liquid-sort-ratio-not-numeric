@@ -21,6 +21,7 @@
           , "formatting"
           , "uom-plugin"
           , "liquidhaskell"
+          , "liquid-fixpoint"
           ]
       , source-dirs =
           "library"
